@@ -19,12 +19,30 @@ public class App {
         long entero4 = 452453453; //é muito extenso, e que mes almacena
         System.out.println("numeroentero4: " +entero4);
 
+
+
+
         //decimales
         double decimal1 = 45.656565; //almazena números decimais
         System.out.println("Primer decimal: "+decimal1);
         
         float decimal2 = 4.46f; //almazena números decimais petite
         System.out.println("Segundo decimal: " +decimal2);
+
+
+
+        //caracteres
+
+        char caractere = 'a'; //cualquier caracter der teclado
+        System.out.println("Caracter: " +caractere);
+
+        //boolean 
+        boolean desicion = true; // desicion saber si algo es verdadero o falso 
+        System.out.println("Esto es: " +desicion);
+
+
+
+
 
         
 
