@@ -13,6 +13,12 @@ public class App {
         short entero2 = 12456;// -32768 a 32767
         System.out.println("numero entero: " +entero2);
 
+        int entero3 = 456532; // é muito extenso, deposito muitas variables
+        System.out.println("numeroentero3: " +entero3);
+
+        long entero4 = 452453453; //é muito extenso, e que mes almacena
+        System.out.println("numeroentero4: " +entero4);
+
         
 
 
