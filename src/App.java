@@ -1,5 +1,6 @@
+import java.util.Scanner;
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         System.out.println("Hello, World!");
         System.out.println("Mi nombre es Mateo");
         System.out.println("Un gusto poder conocerte");// se puede poner soaut y asi lo hace mas rapido
@@ -44,13 +45,27 @@ public class App {
 
         //Tipos de datos no primitivos
 
+        Integer numero=null; //armazena qualquer numero alem de nulo
+        System.out.println("el numero es:" +numero);
 
+        String palabra="Hola que tal?"; //armazena cadeias de caracteres
+        System.out.println(palabra);
 
+        // constantes 
 
+        final int num = 10; // o número será o mesmo durante todo o programa
+
+        System.out.println(num);
+
+        //Entrada de dados 
+        int dato;
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite un numero: ");
+        dato = entrada.nextInt();
+        System.out.println("El numero es: "+dato);
 
         
-
-
-      
     }
-}
+
+  }
+
